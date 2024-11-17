@@ -21,7 +21,7 @@ function App() {
   const toggleComplete = () => {
     setTodos((prev) =>
       prev.map((prevTodo) =>
-        prevTodo === id
+        prevTodo.id === id
           ? { ...prevTodo, completed: !prevTodo.completed }
           : prevTodo
       )

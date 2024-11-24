@@ -14,6 +14,7 @@ console.log(todo)
   };
   return (
     <form onSubmit={add} className="flex">
+      
       <input
         type="text"
         placeholder="Write Todo..."
